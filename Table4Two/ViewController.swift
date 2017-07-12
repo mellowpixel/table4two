@@ -14,7 +14,17 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        print("Hellow Mother fucker!")
+        let years : Float = 70.0
+        let string = "This Cognac is \(years) years old"
+        
+        
+        
+        
+        let nickName: String? = nil
+        let fullName: String = "John Appleseed"
+        let informalGreeting = "Hi \(nickName ?? fullName)"
+        
+        print(informalGreeting)
     }
 
     override var representedObject: AnyObject? {
